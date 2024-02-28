@@ -41,7 +41,8 @@ body * {
   color: var(--text-color);
 }
 #container {
-  width: 360px;
+  width: 100%;
+  max-width: 588px;
   margin: 56px auto 0px auto;
   padding: 0 24px;
 }
@@ -62,7 +63,7 @@ body * {
 }
 
 /* switch */
-#switch{
+#switch {
   position: relative;
   width: 64px;
 
@@ -88,7 +89,7 @@ body * {
   left: initial;
 }
 
-#switch span{
+#switch span {
   display: block;
   width: 64px;
   height: 24px;
@@ -97,7 +98,6 @@ body * {
   backdrop-filter: blur(4px);
   border-radius: 9999px;
 }
-
 
 /* links */
 ul {
